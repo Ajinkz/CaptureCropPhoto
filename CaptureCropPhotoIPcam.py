@@ -24,14 +24,13 @@ except OSError:
 else:  
     print ("Successfully created the directory %s" % folder)
 
-# url from IP cam
 # http://<ip-addr>:<port>/shot.jpg is from ip cam
-url='http://192.168.1.102:8080/shot.jpg' 
+url='http://192.168.1.102:8080/shot.jpg'  # change the url
 i=0
 while True:
     img_resp=requests.get(url)
     img_arr=np.array(bytearray(img_resp.content),dtype=np.uint8)
-    image = cv2.imdecode(img_arr,-1)
+    image = cv2.imdecode(img_arr,1)
 
     cv2.imshow(Firstname, image)
 
