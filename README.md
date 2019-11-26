@@ -16,9 +16,9 @@ A simple python code useful in Face Recognition for data collection to capture p
 
 - It will ask to enter user first name, last name, id, gender,etc
 - Then it will create a directory with the same and cv2 session will start
-- Press 'c' to capture photo.Press as many times as the number of photos of user you want
-- Press 's' to autocrop all photos in that directory to face region
-- Press 'x' to break & exit
+- Press '**c**' to capture photo.Press as many times as the number of photos of user you want
+- Press '**s**' to autocrop all photos in that directory to face region
+- Press '**x**' to break & exit
 - Directory name will be in format
   `<Id.no>_<First name>_<Last name>_<Gender M/F>`
   e.g. `007_James_Bond_M`
