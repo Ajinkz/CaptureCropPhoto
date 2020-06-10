@@ -1,4 +1,5 @@
 # CaptureCropPhoto
+[site](https://ajinkz.github.io/CaptureCropPhoto/)
 
 A simple python code useful in Face Recognition for data collection to capture photo using webcam and crop to image centered to face detected
 
